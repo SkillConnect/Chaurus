@@ -1,4 +1,58 @@
 /*--------------------------------------------------------------
+# What We Do
+--------------------------------------------------------------*/
+.what-we-do .icon-box {
+  text-align: center;
+  padding: 30px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.what-we-do .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #eaf4fb;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box .icon i {
+  color: #3498db;
+  font-size: 28px;
+}
+
+.what-we-do .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.what-we-do .icon-box h4 a {
+  color: #384046;
+  transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.what-we-do .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do .icon-box:hover h4 a, .what-we-do .icon-box:hover .icon i {
+  color: #3498db;
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -716,6 +770,182 @@ section {
     text-align: center;
   }
 }
+
+/*--------------------------------------------------------------
+# Our features
+--------------------------------------------------------------*/
+.features {
+  padding-bottom: 20px;
+}
+
+.features .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0  0 40px 0;
+  background: #fff;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.features .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.features .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.features .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.features .title a {
+  color: #111;
+}
+
+.features .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.features .icon-box-pink .icon {
+  background: #fceef3;
+}
+
+.features .icon-box-pink .icon i {
+  color: #ff689b;
+}
+
+.features .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.features .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+
+.features .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+
+.features .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.features .icon-box-green .icon {
+  background: #eafde7;
+}
+
+.features .icon-box-green .icon i {
+  color: #41cf2e;
+}
+
+.features .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.features .icon-box-blue .icon {
+  background: #e1eeff;
+}
+
+.features .icon-box-blue .icon i {
+  color: #2282ff;
+}
+
+.features .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+
+/*--------------------------------------------------------------
+# Service Details
+--------------------------------------------------------------*/
+.service-details {
+  padding-bottom: 10px;
+}
+
+.service-details .card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.service-details .card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+
+.service-details .card-img img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-details .card-body {
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+}
+
+.service-details .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-details .card-title a {
+  color: #1e4356;
+  transition: 0.3s;
+}
+
+.service-details .card-text {
+  color: #5e5e5e;
+}
+
+.service-details .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.service-details .read-more a:hover {
+  color: #68A4C4;
+}
+
+.service-details .card:hover img {
+  transform: scale(1.1);
+}
+
+.service-details .card:hover .card-body {
+  border-color: #68A4C4;
+}
+
+.service-details .card:hover .card-body .card-title a {
+  color: #68A4C4;
+}
+
 
 /* Clients Section
 --------------------------------*/

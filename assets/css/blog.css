@@ -1,6 +1,19 @@
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
+
+.sidebar-title span {
+  float: right;
+}
+
+main{
+  background-color: cornsilk;
+}
+
+.entry-single{
+  background-color: #fff;
+}
+
 .blog {
   padding: 40px 0 40px 0;
 }
@@ -103,7 +116,7 @@
   line-height: 38px;
 }
 
-
+/*
 .blog .sidebar {
   padding: 30px;
   margin: 0 0 60px 20px;
@@ -144,4 +157,4 @@
   padding-left: 5px;
   color: #c1c8d0;
   font-size: 14px;
-}
+} */

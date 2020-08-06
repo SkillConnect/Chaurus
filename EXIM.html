@@ -5,50 +5,43 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Chaurus Group - EXIM Services</title>
+  <title>Chaurus Group - About EXIM</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assets/css/style.css" rel="stylesheet">
-
-
-  <style>
-    .card2 {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      /* width: 40%; */
-      border-radius: 5px;
-      margin-bottom: 30px;
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style media="screen">
+    @media (min-width:800px){
+      #aboutus_image{padding-left: 30px}
     }
-
-    .card2:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    #speciality{height: 350px;border-radius: 10px}
+    #values{border-radius:10px;height:350px;margin-top:100px}
+    @media (max-width:650px){
+      #speciality{height: 230px}
+      #values{height: 220px;margin-top: unset;margin-bottom: 40px}
     }
-
-    .card2 img {
-      border-radius: 5px 5px 0 0;
-    }
-
-    .container2 {
-      /* padding: 10% 16px; */
-
+    .fruits{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
+    .fruits:hover{
+      /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+      transform: scale(1.1);
+      transition: 0.5s;
     }
   </style>
 </head>
@@ -76,59 +69,71 @@
   <header id="header">
     <div class="container">
 
-      <div id="logo" class="pull-left">
-        <h1><a href="../index.html">Chaurus</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
+      <div id="logo" class="pull-left" >
+        <a href="index.html"><img src="assets/img/logo.png" style="width:250px"></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">About Us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-has-children"><a href="about.html">About Us</a>
+            <ul>
+              <li><a href="about.html">Who we are</a></li>
+              <li><a href="about.html#Vision">Vision</a></li>
+              <li><a href="about.html#Mission">Mission</a></li>
+              <li><a href="about.html#Values">Core Values</a></li>
+            </ul>
+          </li>
           <li class="menu-has-children menu-active"><a href="javascript:void(0)"> Services</a>
             <ul>
-              <li class="menu-has-children"><a href="javascript:void(0)">Engineering Services</a>
+              <li class="menu-has-children"><a href="CSPL.html"> Chaurus Services Pvt. Ltd.</a>
                 <ul>
-                  <li><a href="../Engineering_Services/ProcessEngineering.html">Process Engineering</a></li>
-                  <li><a href="../Engineering_Services/PipingEngineering.html">Piping Engineering</a></li>
-                  <li><a href="../Engineering_Services/PipelineEngineering.html">Pipeline Enigneering</a></li>
-                  <li><a href="../Engineering_Services/MechanicalEngineering.html">Mechanical Engineering</a></li>
-                  <li><a href="../Engineering_Services/InstrumentationEngineering.html">Instrumentation Engineering</a></li>
-                  <li><a href="../Engineering_Services/CivilEngineering.html">Civil Enigneering</a></li>
-                  <li><a href="../Engineering_Services/StructuralEngineering.html">Structural Engineering</a></li>
-                  <li><a href="../Engineering_Services/DetailedEngineering.html">Detailed Engineering</a></li>
-                  <li><a href="../Engineering_Services/Modelling.html">2D/3D Modelling</a></li>
-                  <li><a href="../Engineering_Services/StressAnalysis.html">Piping/Structural Stress Analysis</a></li>
-                  <li><a href="../Engineering_Services/StructuralDesign.html">Structural Design</a></li>
-                  <li><a href="../Engineering_Services/Studies.html">Static & Dynamic Studies</a></li>
+                  <li class="menu-has-children"><a href="javascript:void(0)">Engineering Services</a>
+                    <ul>
+                      <li><a href="Engineering_Services/ProcessEngineering.html">Process Engineering</a></li>
+                      <li><a href="Engineering_Services/PipingEngineering.html">Piping Engineering</a></li>
+                      <li><a href="Engineering_Services/PipelineEngineering.html">Pipeline Enigneering</a></li>
+                      <li><a href="Engineering_Services/MechanicalEngineering.html">Mechanical Engineering</a></li>
+                      <li><a href="Engineering_Services/InstrumentationEngineering.html">Instrumentation Engineering</a></li>
+                      <li><a href="Engineering_Services/CivilEngineering.html">Civil Enigneering</a></li>
+                      <li><a href="Engineering_Services/StructuralEngineering.html">Structural Engineering</a></li>
+                      <li><a href="Engineering_Services/DetailedEngineering.html">Detailed Engineering</a></li>
+                      <li><a href="Engineering_Services/Modelling.html">2D/3D Modelling</a></li>
+                      <li><a href="Engineering_Services/StressAnalysis.html">Piping/Structural Stress Analysis</a></li>
+                      <li><a href="Engineering_Services/Studies.html">Static & Dynamic Studies</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="Procurement.html">Procurement Services</a></li>
+                  <li><a href="Construction_Fabrication.html">Construction/Fabrication </a></li>
+                  <li><a href="ManpowerSupply.html">Manpower Supply</a></li>
+                  <li><a href="Trading.html">Trading</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="javascript:void(0)">Procurement/Trading Services</a>
+              <li class="menu-has-children"><a href="EXIM.html">Export/Import Services</a>
                 <ul>
-                  <li><a href="../Procurement_Services/Complete.html">Complete Procurement Services</a></li>
-                  <li><a href="../Procurement_Services/MechanicalItems.html">Mechanical Items</a></li>
-                  <li><a href="../Procurement_Services/ElectricalItems.html">Electrical Items</a></li>
-                  <li><a href="../Procurement_Services/InstrumentationItems.html">Instrumentation Items</a></li>
-                  <li><a href="../Procurement_Services/PipingItems.html">Piping Items</a></li>
-                </ul>
-              </li>
-              <li><a href="../ConstructionServices.html">Construction Services</a></li>
-              <li><a href="../Fabrication.html">Fabrication</a></li>
-              <li><a href="../ManpowerSupply.html">Manpower Supply</a></li>
-              <li><a href="../Trading.html">Trading</a></li>
-              <li class="menu-has-children"><a href="javascript:void(0)">Export/Import Services</a>
-                <ul>
-                  <li><a href="../EXIM/Agriculture.html">Agriculture</a></li>
+                  <li class="menu-has-children"><a href="Agriculture/index.html">Agro Products</a>
+                  <ul>
+                    <li><a href="Agriculture/Fruits.html">Fruits</a></li>
+                    <li><a href="Agriculture/Vegetables.html">Vegetables</a></li>
+                    <li><a href="Agriculture/Spices.html">Spices</a></li>
+                    <li><a href="Agriculture/Pulses.html">Pulses</a></li>
+                    <li><a href="Agriculture/Grains.html">Grains</a></li>
+                    <li><a href="Agriculture/Jaggery.html">Jaggery</a></li>
+                  </ul>
+                  <li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="../associations.html">Professional Associations</a></li>
-          <li><a href="../vendor_registration.html">Vendor Registration</a></li>
-          <li><a href="javascript:void(0)">Downloads</a></li>
-          <li><a href="../careers.html">Careers</a></li>
-          <li><a href="../contact.html">Contact Us</a></li>
+          <li><a href="vendor_registration.html">Vendor Registration</a></li>
+          <li class="menu-has-children"><a href="javascript:void(0)">Downloads</a>
+            <ul>
+              <li><a href="#">Chaurus Services Pvt. Ltd. - Profile</a></li>
+              <li><a href="#">Chaurus Exim – Profile</a></li>
+            </ul>
+          </li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -141,7 +146,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Export Import Services</h2>
+          <h2>Chaurus Export Import Services</h2>
           <ol>
             <li><a href="exim.html">Home</a></li>
             <li>EXIM Services</li>
@@ -151,100 +156,227 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <br><br>
-
-    <section class="inner-page pt-4">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="wow fadeInUp">
       <div class="container">
-        <div class="section-header">
-          <h2>Chaurus Export Import Services</h2>
-        </div>
-        <div class="card">
-          <img src="../assets/img/exim/exim.jpg" style="height:400px;object-fit:cover;" class="card-img-top">
-        </div>
-        <br><br>
-        <div class="section-header">
-          <h2>Introduction</h2>
-          <p>
-            Chaurus Exim has been set up in the year 2017 primarily as an Farming/Export company in India and is a
-            leading exporter of Vegetables, Fruits, Spices, Grains and Pulses. We are renowned traders in the
-            domestic markets and spreading our wings now to the international opportunities. Our business model is
-            based on product proficiency in agricultural markets while also expanding to other markets aggressively.
-          </p>
-        </div>
-
-        <div class="section-header">
-          <h2>Our Speciality</h2>
-          <p>
-            Specializes in premium-fresh produce distribution worldwide. We are a strong team of agricultural experts
-            who take pride in globally promoting a long line of the finest possible farm products available in the market
-            today. Our dedication to supplying top-of-the-line freshֲ products as well as our long line of strong
-            partnerships and customers, have helped us guarantee a reliable service of the finest products which we
-            are proud to present to communities worldwide.
-          </p>
-        </div>
-
-        <section id="services">
-          <div class="container">
+        <div class="row">
+          <div class="col-lg-6 content mt-lg-3">
             <div class="section-header">
-              <h2>Mission & Vision</h2>
+              <h2>Who we are</h2>
+              <p style="text-align:justify">
+                Chaurus Exim has been set up in the year 2017 primarily as an Farming/Export company in India and is a
+                leading exporter of Vegetables, Fruits, Spices, Grains and Pulses. We are renowned traders in the
+                domestic markets and spreading our wings now to the international opportunities. Our business model is
+                based on product proficiency in agricultural markets while also expanding to other markets aggressively.
+              </p>
             </div>
-
-            <div class="row">
-
-              <div class="col-lg-6">
-                <div class="box wow fadeInLeft">
-                  <div class="icon"><i class="fa fa-plane"></i></div>
-                  <h4 class="title"><a href="">Our Mission</a></h4>
-                  <p class="description">
-                    We wish to contribute to societies that enjoy enhanced livelihood as a result of fair and ethical growing and
-                    trade in fresh produce. In order to turn our vision into a viable reality and encourage a healthy food
-                    environment on a global level, we intend to expand our services globally and take an active part in this
-                    exciting agriculture revolution.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="box wow fadeInRight">
-                  <div class="icon"><i class="fa fa-eye"></i></div>
-                  <h4 class="title"><a href="">Our Vision</a></h4>
-                  <p class="description">
-                    We aim at achieving sustainable agriculture while ensuring worldwide fresh produce trade within
-                    international standards &amp; procedures and in a cost-effective manner. Our strongest motivation is to align
-                    with the number one consumer trend today – fresher and healthier foods that are nutritional and chemical
-                    free. We deliver a whole world of freshness—no matter who, or where you are.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-
           </div>
-        </section><!-- End Services Section -->
+          <div class="col-lg-6 about-img" id="aboutus_image">
+            <img src="assets/img/about/exim.jpg" style="border-radius:10px;max-height:600px">
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
 
-        <div class="section-header">
-          <h2>Core Values</h2>
+    <!-- ======= Services Section ======= -->
+    <section id="services">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="assets/img/exim/speciality.jpg" id="speciality">
+            </div>
+            <div class="col-lg-6 mt-3">
+              <div class="section-header">
+                <h2>Our Speciality</h2>
+              </div>
+              <p>
+                Specializes in premium-fresh produce distribution worldwide. We are a strong team of agricultural experts
+                who take pride in globally promoting a long line of the finest possible farm products available in the market
+                today. Our dedication to supplying top-of-the-line freshֲ products as well as our long line of strong
+                partnerships and customers, have helped us guarantee a reliable service of the finest products which we
+                are proud to present to communities worldwide.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="section-header mt-5">
+            <h2>Our Vision & Mission</h2>
+          </div>
           <p>
-            At Chaurus Exim, we believe customer satisfaction begins with the earth: the land from which the grower
-            creates fine brands and fine produce that are key to our way of doing business.
-            <br>
-            We believe that integrity, trustworthiness and honesty are integral to who we are as a company, and so, we
-            insist that at every stage of what we do, Chaurus Exim works in partnership with our suppliers. We insist on
-            ‘Fair Trade’ principles and ethical business practices that support even the smallest grower.
-            We also stipulate that the choice of produce we accept, and its delivery to the designated location and at
-            customers end, are all done to the highest ethical and quality standards.
-            It is this passion for getting things right and our refusal to compromise on quality that have established our
-            reputation in our working tenure.
+            We wish to contribute to societies that enjoy enhanced livelihood as a result of fair and ethical growing and
+            trade in fresh produce. In order to turn our vision into a viable reality and encourage a healthy food
+            environment on a global level, we intend to expand our services globally and take an active part in this
+            exciting agriculture revolution. <br>
+            We aim at achieving sustainable agriculture while ensuring worldwide fresh produce trade within
+            international standards &amp; procedures and in a cost-effective manner. Our strongest motivation is to align
+            with the number one consumer trend today – fresher and healthier foods that are nutritional and chemical
+            free.<br><br>
+            Add to this our desire to supply you and your customers delicious foods at a price that is as terrific as the
+            taste. We achieve our quality through a rigorous selection of farms and partner suppliers who share our
+            vision of affordable quality, as well as our insistence on operating a short supply chain; a dedicated and
+            ultra-efficient logistics system, and a brand new, state-of-the-art storage facility that underscores our
+            commitment to fast, fresh delivery.<br>
+            At Chaurus Exim, we deliver a whole world of freshness—no matter who, or where you are.
           </p>
-        </div>
-        <br><br>
-        <div style="text-align:center">
-          <a href="Agriculture.html" class="btn btn-primary btn-lg">See our Products Catalog</a>
-        </div>
 
+          <div class="row">
+            <div class="col-lg-6 mt-3">
+              <div class="section-header">
+                <h2>Core Values</h2>
+              </div>
+              <p>
+                At Chaurus Exim, we believe customer satisfaction begins with the earth: the land from which the grower
+                creates fine brands and fine produce that are key to our way of doing business. <br><br>
+                We believe that integrity, trustworthiness and honesty are integral to who we are as a company, and so, we
+                insist that at every stage of what we do, Chaurus Exim works in partnership with our suppliers. We insist on
+                ‘Fair Trade’ principles and ethical business practices that support even the smallest grower.<br>
+                We also stipulate that the choice of produce we accept, and its delivery to the designated location and at
+                customers end, are all done to the highest ethical and quality standards. <br><br>
+                It is this passion for getting things right and our refusal to compromise on quality that have established our
+                reputation in our working tenure.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/exim/values.jpg" id="values">
+            </div>
+          </div>
+
+          <div class="section-header">
+            <h2>WHY ARE WE SO GREAT</h2>
+          </div>
+          <p>
+            It&#39;s simple: <b>Quality and Ethical business is Our Way of Life.</b> <br><br>
+            We, Chaurus Exim, believe in honest and transparent vision in business. We are committed to serve our
+            customers in best possible ways. We specialize in quality and timely shipment. With our efficient and timely
+            services we are emerging as most preferred business partner. We provide quality products and ensure
+            prompt delivery maintaining the highest level of quality standards, which helps us to get prominence in this
+            competitive era. <br>
+            The company has well qualified staff for all the functions. We are able to create high
+            success because of combined and well-coordinated efforts of our qualified staff. Our partners are a-list
+            providers in the field with the ad hoc knowledge and expertise necessary for ideal delivery. We do not
+            compromise on quality. Your fresh produce is brought directly from the field, to your designated market.
+            Our supply chain is not only timely and efficient. It is also affordable.
+          </p>
       </div>
     </section>
 
+    <section id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Products</h2>
+        </div>
+
+        <div class="container px-lg-5">
+          <div class="row mb-4">
+            <div class="col-md-3 mb-4">
+              <a href="Agro/banana.html">
+                <div class="card fruits">
+                  <img src="assets/img/exim/fruits.jpg" class="card-img-top" alt="...">
+                  <div class="card-footer text-center"><b>Fruits</b></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 mb-4">
+              <a href="Agro/chilli.html">
+              <div class="card fruits">
+                <img src="assets/img/exim/vegetables.jpg" class="card-img-top" alt="...">
+                <div class="card-footer text-center"><b>Vegetables</b></div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-3 mb-4">
+              <a href="Agro/turmeric.html">
+              <div class="card fruits">
+                <img src="assets/img/exim/spices.jpg" class="card-img-top" alt="...">
+                <div class="card-footer text-center"><b>Spices</b></div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="Agro/toor.html">
+              <div class="card fruits">
+                <img src="assets/img/exim/Pulse.jpg" class="card-img-top" alt="...">
+                <div class="card-footer text-center"><b>Pulse</b></div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="Agro/banana.html" class="btn btn-primary btn-lg">Explore Entire Catalog</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h2>How We Work</h2>
+        </div>
+        <p>
+          At the heart of Chaurus Exim commitment to our clients, are the family values we hold precious: an
+          individual service that is wholly personal, whether you are a small Seller, or small supermarket or a chain of
+          luxury hotels. What this means in practice is that you deal with one person. One person who is dedicated to
+          you and your clients’ particular needs—all with levels of personal service that never goes out of fashion.
+          <br><br>
+          <b>1. Enquiries</b><br>
+          Contact us, and one of our highly-trained customer service representatives will connect with you to discuss
+          your particular needs, either on your premises or in a manner most convenient to you.<br>
+          <b>2. Account Managers</b><br>
+          Our customer service representatives work hand-in-hand with an account manager who oversees your
+          account. They ensure every specification you require is met—whether you require particular products from
+          a particular location, or whether you need a small order or multiple containers; one item, or the more than
+          five hundred we offer. We thrive on receiving your feedback, and so we are always happy to hear how we
+          can make our service better for you in the future.<br>
+          <b>3. The Ordering System</b><br>
+          Once you have placed your order, it is immediately tracked on our comprehensive order logging system.
+          What this means in practice is that our operations and logistics teams instantly prepare for the delivery of
+          your order, assigning room in our cold storage facilities and in our delivery fleet.<br>
+          <b>4. Quality</b><br>
+          With our strict attention to quality assurance, our produce arrives fresh and in perfect quality. And, after a
+          final rigorous assessment by our quality control professionals, we dispatch it to you shortly afterwards.<br>
+          <b>5. Delivery</b><br>
+          We deliver your produce within hours of its arrival, as with our huge fleet we are able to deliver several
+          times a day, whether day or night. Our fleet is monitored by satellite, meaning that we can check at any
+          time to see exactly where your order is, 24/7. And, there is always someone available who is responsible
+          for your account, should you need to call or email. We deliver on time and to the place you specify.<br>
+          <b>6. Post-Delivery</b><br>
+          Once you have received your order, your account manager will follow up and address any outstanding
+          issues or queries you might have, and deal promptly with them so you do not have to face any
+          inconvenience. If you require advice or help with display or care of your order, we will be only too happy to
+          assist you, as we have merchandising specialists who are at your service.
+        </p>
+
+        <div class="section-header">
+          <h2>Quality Guarantee</h2>
+        </div>
+        <p>
+          We, Chaurus Exim, believe in honest and transparent vision in business. We are committed to serve our
+          customer in best possible ways. We specialize in quality and timely shipment. With our efficient and timely
+          services we are emerging as most preferred business partner. We provide quality products and ensure
+          prompt delivery maintaining the highest level of quality standards, which helps us to get prominence in this
+          competitive era. The company has well qualified staff for all the functions. We are able to create high
+          success because of combined and well-coordinated efforts of our qualified staff. <br><br>
+          We stand by our reputation. We stand by our name. We stand by quality.
+        </p>
+
+        <div class="section-header">
+          <h2>Logistics</h2>
+        </div>
+        <p>
+          Our strong logistics infrastructure allows us to perfectly meet customer demands with regards to product
+          safety, terms of delivery and cost effectiveness. <br><br>
+          Our shipping partners fully comply with international government standards, regulations and procedures.
+          Moreover, our fresh produce shelf life is ensured through our vast expertise and our innovative approach,
+          which our logistics partners have been successfully implementing for decades.<br>
+          Our partners excel at shipping fresh produce anywhere in the world with a strict produce-specific
+          temperature regime. We consistently enjoy preferential rates with major freight forwarding companies which
+          enable us to rapidly and efficiently ship delicate and fresh commodities anywhere, and anytime.
+        </p>
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
@@ -316,19 +448,19 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="../assets/vendor/wow/wow.min.js"></script>
-  <script src="../assets/vendor/venobox/venobox.min.js"></script>
-  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="../assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="../assets/vendor/superfish/superfish.min.js"></script>
-  <script src="../assets/vendor/hoverIntent/hoverIntent.js"></script>
-  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/wow/wow.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 

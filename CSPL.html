@@ -27,7 +27,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/flip.css" rel="stylesheet">
+  <style media="screen">
+    @media (min-width:800px){
+      #aboutus_image{margin-top: 130px;padding-left: 30px}
+    }
+  </style>
 </head>
 
 <body>
@@ -71,7 +75,7 @@
             </li>
             <li class="menu-has-children menu-active"><a href="javascript:void(0)"> Services</a>
               <ul>
-                <li class="menu-has-children"><a href="Services.html"> Chaurus Services Pvt. Ltd.</a>
+                <li class="menu-has-children"><a href="CSPL.html"> Chaurus Services Pvt. Ltd.</a>
                   <ul>
                     <li class="menu-has-children"><a href="javascript:void(0)">Engineering Services</a>
                       <ul>
@@ -166,8 +170,8 @@
             </div>
           </div>
 
-          <div class="col-lg-6 about-img">
-            <img src="assets/img/about/about.jpg" style="border-radius:10px">
+          <div class="col-lg-6 about-img" id="aboutus_image">
+            <img src="assets/img/about/cspl.jpg" style="border-radius:10px;max-height:600px">
           </div>
         </div>
         <p>
@@ -255,109 +259,80 @@
       </div>
     </section>
 
-    <div class="container px-5">
+    <div class="container px-lg-5">
       <div class="row">
 
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/mech.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Engineering Services</h3>
-                    <a class="btn btn-primary">Know More</a>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/mech.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Engineering Services</b></h5>
+                <p class="card-text">We offer wide range of Engineering Services including Process, Piping, Mechanical, Instrumentation, Civil, Structural Stress Analysis, Modelling etc.</p>
+                <div class="text-center">
+                    <a href="Engineering_Services/ProcessEngineering.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/procurement.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Procurement Services</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/procurement.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-3"><b>Procurement Services</b></h5>
+                <p class="card-text">CSPL offers Procurement Services for various clients globally. The services include contracts and purchase, inspection, expediting, transportation as well as supplier enlistment. </p>
+                <div class="text-center">
+                    <a href="Procurement.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/construction.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Construction Services</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/construction.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Construction Services</b></h5>
+                <p class="card-text">CSPL is well equipped as a leader with our associate companies to perform the large number Civil Fabrication & Construction works.</p>
+                <br>
+                <div class="text-center">
+                    <a href="Construction_Fabrication.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
           </div>
 
-
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/structural.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Fabrication</h3>
-                    <a class="btn btn-primary">Know More</a>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/fabrication.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Fabrication Service</b></h5>
+                <p class="card-text">CSPL offers wide range of Fabrication Services like Structural fabrication, Mechanical fabrication, Pipeline fabrication and Electrical & Instrumentation fabrication.</p>
+                <div class="text-center">
+                    <a href="Construction_Fabrication.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/manpower.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Manpower Supply</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/manpower.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top:-28px"><b>Manpower Supply</b></h5>
+                <p class="card-text">“CSPL” works closely with clients to develop comprehensive workforce depending on requirements. Our personnel are recruited only after extensive interviews and checks.</p>
+                <div class="text-center">
+                    <a href="ManpowerSupply.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="flip">
-              <div class="card">
-                <div class="face front">
-                  <div class="inner">
-                    <img src="assets/img/services/trading.jpg">
-                  </div>
-                </div>
-                <div class="face back">
-                  <div class="inner text-center">
-                    <h3>Trading</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
-                  </div>
+            <div class="card">
+              <img src="assets/img/services/trading.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top:20px"><b>Trading</b></h5>
+                <p class="card-text"> CSPL team of professional sales engineers adds value to the principal’s products by providing product sales and after-sales services.</p>
+                <br>
+                <div class="text-center">
+                    <a href="Trading.html" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
@@ -452,11 +427,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script type="text/javascript">
-    $('.flip').hover(function(){
-      $(this).find('.card').toggleClass('flipped');
-    });
-  </script>
 </body>
 
 </html>

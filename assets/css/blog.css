@@ -6,8 +6,19 @@
   float: right;
 }
 
+.sidebar{
+  background-color: #fff;
+}
+
 main{
-  background-color: cornsilk;
+  background-color: mediumaquamarine;
+}
+
+main{
+  background-color: #fff;
+  background:url('/Users/shubhambisht/Desktop/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .entry-single{

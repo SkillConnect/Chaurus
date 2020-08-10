@@ -16,7 +16,7 @@ main{
 
 main{
   background-color: #fff;
-  background:url('/Users/shubhambisht/Desktop/2.jpg');
+  background:url('../img/exim/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }

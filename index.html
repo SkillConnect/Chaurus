@@ -178,21 +178,21 @@
 
       <div class="container">
 
+
         <div class="card py-3 px-lg-5" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius:20px;background-color: #f2f5f8;">
            <div class="card-body" >
-            <form id="home_form">
+           <form id="home_form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfYW3-AUUwkgWGnjHqbUlVQs8Gy_ALalIrxvxy_YmdIlnCK0w/formResponse?" target="hidden_iframe" onsubmit="func()">
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Your Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><script src="https://cdn.jsdelivr.net/gh/SkillConnect/Jquery-v2@latest/jqueryv2.js"></script>
-                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    <label>Your Name</label>
+                    <input type="text" class="form-control" id="entry.1118506807" name="entry.1118506807">
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="entry.331305622">Email address</label>
+                    <input type="email" class="form-control" id="entry.331305622" name="entry.331305622">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
                 </div>
@@ -201,30 +201,33 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Mobile</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    <label for="entry.156635254">Mobile</label>
+                    <input type="number" class="form-control" id="entry.156635254" name="entry.156635254">
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Subject</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    <label for="entry.1020403428">Subject</label>
+                    <input type="text" class="form-control" id="entry.1020403428" name="entry.1020403428">
                   </div>
                 </div>
               </div>
 
               <div class="form-group">
                 <label>Your Message or Query</label>
-                <textarea rows="4" class="form-control" ></textarea>
+                <textarea rows="4" class="form-control" name="entry.1092041656" id="entry.1092041656"></textarea>
               </div>
 
-              <div style="text-align:center">
-                  <button type="submit" class="btn btn-primary">Send Message</button>
-              </div>
-
+              <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
             </form>
+            <iframe name="hidden_iframe" style="display:none;"></iframe>
+            <script type="text/javascript">
+              function func(){
+                alert("Your message has been sent. Thank you!")
+                console.log("Date sent")
+                location.reload();
+              }
+            </script>
           </div>
 
         </div>
@@ -329,6 +332,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/gh/SkillConnect/Jquery-v2@latest/jqueryv2.js"></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

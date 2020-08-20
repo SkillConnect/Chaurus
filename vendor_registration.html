@@ -120,15 +120,15 @@
             <h2><b>Vendor Registration</b></h2>
           </div>
 
-          <form>
+          <form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfbdb-9A2AVvIteakuyR5FQGbEp4YFAX-zICz8nZz_oqTiU2w/formResponse?" target="hidden_iframe" onsubmit="func()">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputAddress">Company Legal Name *</label>
-                <input type="text" class="form-control">
+                <label for="entry.1191060500">Company Legal Name *</label>
+                <input type="text" class="form-control" id="entry.1191060500" name="entry.1191060500" required>
               </div>
               <div class="form-group col-md-6">
-                <label for="inputState">Sector *</label>
-                <select id="inputState" class="form-control">
+                <label for="entry.715092316">Sector *</label>
+                <select id="entry.715092316" name="entry.715092316" class="form-control" required>
                   <option selected disabled>Select</option>
                   <option>Chaurus Services Pvt. Ltd.</option>
                   <option>Chaurus EXIM</option>
@@ -137,48 +137,57 @@
             </div>
 
             <div class="form-group">
-              <label for="inputAddress2">Product and Services your company offers *</label>
-              <!-- <input type="text" class="form-control" id="inputAddress2"> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+              <label for="entry.87936869">Product and Services your company offers *</label>
+              <textarea class="form-control" id="entry.87936869" name="entry.87936869" rows="2" required></textarea>
             </div>
 
 
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Contact Person *</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="entry.673972165">Contact Person *</label>
+                <input type="text" class="form-control" id="entry.673972165" name="entry.673972165" required>
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Designation</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="entry.391401116">Designation</label>
+                <input type="text" class="form-control" id="entry.391401116" name="entry.391401116">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group col-md-4">
-                <label for="inputEmail4">Email Address *</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="entry.384095997">Email Address *</label>
+                <input type="email" class="form-control" id="entry.384095997" name="entry.384095997" required>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputPassword4">Phone Number *</label>
-                <input type="number" class="form-control" id="inputPassword4">
+                <label for="entry.1874720070">Phone Number *</label>
+                <input type="number" class="form-control" id="entry.1874720070" name="entry.1874720070" required>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputPassword4">Company Website *</label>
-                <input type="text" class="form-control" id="inputPassword4">
+                <label for="entry.714564375">Company Website *</label>
+                <input type="text" class="form-control" id="entry.714564375" name="entry.714564375" required>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="inputAddress2">Detail information about Company</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="entry.1978555711">Detail information about Company</label>
+              <textarea class="form-control" id="entry.1978555711" name="entry.1978555711" rows="3"></textarea>
             </div>
 
             <hr>
-            <div style="text-align:center">
+            <!-- <div style="text-align:center">
                 <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
+            </div> -->
+            <div class="text-center"><button type="submit" class="btn btn-primary">Submit</button></div>
+
           </form>
+          <iframe name="hidden_iframe" style="display:none;"></iframe>
+          <script type="text/javascript">
+            function func(){
+              alert("Your message has been sent. Thank you!")
+              console.log("Date sent")
+              location.reload();
+            }
+          </script>
         </div>
       </div>
     </section><!-- End Contact Section -->
